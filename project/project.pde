@@ -49,11 +49,10 @@ void draw() {
     ode_main();
   }
   if (mode == 2) {
-    //underDevelopment(2);
     body_main();
   }
   if (mode == 3) {
-    underDevelopment(3);
+    animal_main();
   }
   if (mode == 4) {
     image(about, 0, 0);
